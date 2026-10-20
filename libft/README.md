@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <mgiraldi>*
+*This project has been created as part of the 42 curriculum by mgiraldi*
 
 Description:
 	In the first part of this project the goal is to recreate multiple functions from libc, adhering to their definitions from the **man** page.
