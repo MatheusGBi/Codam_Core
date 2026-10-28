@@ -44,6 +44,8 @@ int	hex_adress(void *adress)
 	p = (unsigned long long)adress;
 	i = 15;
 	h = "0123456789abcdef";
+	if (!adress)
+		return (write(1, "(nil)", 5), 5);
 	if (p == 0)
 	{
 		write(1, "0x0", 3);
